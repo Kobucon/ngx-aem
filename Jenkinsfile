@@ -6,5 +6,10 @@ pipeline {
         echo 'Hello Github'
       }
     }
+    stage('') {
+      steps {
+        sleep 5
+      }
+    }
   }
 }
